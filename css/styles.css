@@ -249,13 +249,12 @@ nav  li a:hover {
 }
 
 #EndLine{
-    text-align: left;
+    flex-direction: row-reverse;
     width: 100%;
     border-style: solid;
     border-color: black;
-    border-width: 1px;
+    border-width: 0 0 1px 0px;
 }
-
 /*===================================EDITOR CARD============================================*/
 #Editor-Card,#Editor-Card * {
     display: flex;
