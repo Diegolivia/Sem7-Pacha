@@ -1,302 +1,312 @@
 /*Las fuentes usadas son Arial Y Helvetica*/
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open + Sans);
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-stretch: expanded;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-stretch: expanded;
 }
 
 section {
-    padding: 15px 10%;
-    width: 80%;
-    max-width: 1080;
+  padding: 15px 10%;
+  width: 80%;
+  max-width: 1080;
 }
-@media only screen and (max-width: 768px){
-p {
-    Font-Size: 14px;
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 14px;
     padding: 2% 0 5% 0;
     color: black;
-}
+  }
 
-h1, h2, h3, h4 {
-    color: #1F3F68;
-}
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: #1f3f68;
+  }
 
-h1, h2 {
+  h1,
+  h2 {
     padding: 2% 0 1% 0;
     font-size: 18px;
-}
+  }
 
-h5 {
-    color: #7a7a7a
-}
+  h5 {
+    color: #7a7a7a;
+  }
 }
 @media only screen and (min-width: 768px) {
-    p {
-        Font-Size: 16px;
-        padding: 2% 0 5% 0;
-        color: black;
-    }
-    
-    h1, h2, h3, h4 {
-        color: #1F3F68;
-    }
-    
-    h1, h2 {
-        padding: 2% 0 1% 0;
-        font-size: 20px;
-    }
-    
-    h5 {
-        color: #7a7a7a
-    }
+  p {
+    font-size: 16px;
+    padding: 2% 0 5% 0;
+    color: black;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: #1f3f68;
+  }
+
+  h1,
+  h2 {
+    padding: 2% 0 1% 0;
+    font-size: 20px;
+  }
+
+  h5 {
+    color: #7a7a7a;
+  }
 }
 /*=============================BARRA DE NAV=============================================*/
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
 
-nav ul, nav a {
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-    padding: 0 10px;
+nav ul,
+nav a {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  padding: 0 10px;
 }
 
 nav li {
-    display: inline-block;
+  display: inline-block;
 }
 
-nav  li a:hover {
-    color: darkblue;
-    font-weight: bolder;
+nav li a:hover {
+  color: darkblue;
+  font-weight: bolder;
 }
 
 /*===================================BRUCE BANNER==========================================*/
 
 #Banner {
-    height: 250px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    background: linear-gradient(211.87deg, #98d0fc 2.46%, #3481d7 93.24%);
-    position: relative;
-    z-index: 0;
-  }
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: linear-gradient(211.87deg, #98d0fc 2.46%, #3481d7 93.24%);
+  position: relative;
+  z-index: 0;
+}
 
 #Banner::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    z-index: -1;
-    background-image: url("../images/bannerVector.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  background-image: url("../images/bannerVector.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-#Banner h1{
-    Font-Size: 44px;
-    padding: 20px;
-    color: white;
+#Banner h1 {
+  font-size: 44px;
+  padding: 20px;
+  color: white;
 }
 
 #Banner p {
-    Font-Size: 20px;
-    padding: 15px 10%;
-    width: 80%;
-    color: white;
-    text-align: center;
+  font-size: 20px;
+  padding: 15px 10%;
+  width: 80%;
+  color: white;
+  text-align: center;
 }
 
 /*===================================BARRA BUSCADORA==========================================*/
 
 #Searchbar {
-    width: 80%;
-    position: relative;
-    display: flex;
-    font-size: 14px;
-    padding: 25px 10%;
+  width: 80%;
+  position: relative;
+  display: flex;
+  font-size: 14px;
+  padding: 25px 10%;
 }
 
 .searchTerm {
-    border: 0px solid;
-    background-color: lightgray;
-    color: grey;
-    width: 100%;
-    border-radius: 0 10px 10px 0;
-    border-left: none;
+  border: 0px solid;
+  background-color: lightgray;
+  color: grey;
+  width: 100%;
+  border-radius: 0 10px 10px 0;
+  border-left: none;
 }
 
 .searchTerm:focus {
-    color: black;
+  color: black;
 }
 
 .SearchIcon {
-    padding: 15px;
-    border: 0px solid;
-    background-color: lightgray;
-    color: grey;
-    width: 20px;
-    border-radius: 10px 0 0 10px;
-    border-right: none;
+  padding: 15px;
+  border: 0px solid;
+  background-color: lightgray;
+  color: grey;
+  width: 20px;
+  border-radius: 10px 0 0 10px;
+  border-right: none;
 }
 
 .searchTerm img {
-    width: 100%;
+  width: 100%;
 }
 
 /*===================================MAIN STORY==========================================*/
 
-#MainStory, #MainStory  *{
-    display: flex;
-    flex-wrap: wrap;
+#MainStory,
+#MainStory * {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#Title{
-    width: 100%;
+#Title {
+  width: 100%;
 }
 @media only screen and (max-width: 768px) {
-#MainStory{
+  #MainStory {
     flex-direction: row-reverse;
-}
+  }
 
-#MainPicture {
+  #MainPicture {
     width: 100%;
-}
+  }
 
-#MainHistory {
+  #MainHistory {
     width: 100%;
     align-self: flex-end;
-}
-
+  }
 }
 @media only screen and (min-width: 768px) {
+  #MainStory {
+    flex-direction: row-reverse;
+  }
 
-    #MainStory{
-        flex-direction: row-reverse;
-    }
-
-#MainPicture {
+  #MainPicture {
     width: 50%;
-}
+  }
 
-#MainHistory {
+  #MainHistory {
     width: 50%;
     align-self: flex-end;
-} 
+  }
 }
 
 #MainStory h3 {
-    font-size: 22px;
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
+  font-size: 22px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 #MainStory h2 {
-    font-size: 20px;
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 #MainStory img {
-    width: 100%;
+  width: 100%;
 }
 
 /*===================================RELATED STORY==========================================*/
 
-#RelatedStory ,#RelatedStory  *{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+#RelatedStory,
+#RelatedStory * {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 @media only screen and (max-width: 768px) {
-#MinorStoryBlock {
+  #MinorStoryBlock {
     width: 100%;
-}
+  }
 }
 #MinorStoryBlock img {
-    width: 100%;
+  width: 100%;
 }
-
 
 @media only screen and (min-width: 768px) {
-    #MinorStoryBlock {
-        width: 30%;
-    }   
+  #MinorStoryBlock {
+    width: 30%;
+  }
 }
 
-#EndLine{
-    flex-direction: row-reverse;
-    width: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 0 0 1px 0px;
+#EndLine {
+  flex-direction: row-reverse;
+  width: 100%;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0px;
 }
 /*===================================EDITOR CARD============================================*/
-#Editor-Card,#Editor-Card * {
-    display: flex;
-    justify-content: space-between;
+#Editor-Card,
+#Editor-Card * {
+  display: flex;
+  justify-content: space-between;
 }
 
-#Editor-Card{
-    padding: 5% 0;
-    width: 100%;
+#Editor-Card {
+  padding: 5% 0;
+  width: 100%;
 }
 
 #Editor-Right {
-    width: 80%;
-    color: grey;
+  width: 80%;
+  color: grey;
 }
 
 #Editor-Left {
-    width: 20%;
+  width: 20%;
 }
 
 #Editor-Left img {
-    height: fit-content;
-    width: auto;
+  height: fit-content;
+  width: auto;
 }
 
-#Editor-Name, #Editor-Date{
-    font-size: 14px;
-    font-weight: bold;
-    width: 100%;
-    color: #1F3F68;
+#Editor-Name,
+#Editor-Date {
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  color: #1f3f68;
 }
 
-#Editor-Date{
-    opacity: 0.4;
+#Editor-Date {
+  opacity: 0.4;
 }
 
 /*=======================POPULAR ARTICLE DIVISOR===========================*/
 
 #SeePopArt h3 {
-    text-align: right;
-    padding: 0 0 2% 0;
-    opacity: 80%;
+  text-align: right;
+  padding: 0 0 2% 0;
+  opacity: 80%;
 }
 
 /*=======================POPULAR ARTICLE DIVISOR============================*/
@@ -304,89 +314,96 @@ nav  li a:hover {
 /*===================================ARTICLE STORY==========================================*/
 
 #ArticleCard {
-    display: flex;
-    padding: 3% 0 0 0;
+  display: flex;
+  padding: 3% 0 0 0;
 }
 
 #ArtCardRight {
-    color: white;
-    width: 30%;
+  color: white;
+  width: 30%;
 }
 
 #ArtCardLeft {
-    width: 70%;
-    padding: 0 0 0 5%;
+  width: 70%;
+  padding: 0 0 0 5%;
 }
 
 #ArtCardPhoto {
-    width: 100%;
+  width: 100%;
 }
 
 #ArticleCard h2 {
-    padding: 0 0 2% 0;
+  padding: 0 0 2% 0;
 }
 
 #ArticleCard p {
-    color: #999999;
-    padding: 0 0 0 0;
+  color: #999999;
+  padding: 0 0 0 0;
 }
 
 /*===================================CONTACT US==========================================*/
 
 #Contact {
-    background-color: #316099;
-    width: 70%;
-    border-radius: 0 250px 0 0;
-    display: flex;
+  background-color: #316099;
+  width: 70%;
+  border-radius: 0 250px 0 0;
+  display: flex;
 }
 
 #Contact h2 {
-    color: white;
+  color: white;
 }
 
 #Contact p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 #Contact div {
-    width: 50%;
-    padding: 0 10%;
+  width: 50%;
+  padding: 0 10%;
 }
 
 #Contact button {
-    text-align: center;
-    margin: auto;
-    padding: 1% 4% 1% 4%;
-    border-radius: 10px;
-    background-color: #5A98D0;
-    border: 0px;
+  text-align: center;
+  margin: auto;
+  padding: 1% 4% 1% 4%;
+  border-radius: 10px;
+  background-color: #5a98d0;
+  border: 0px;
 }
 
 /*===================================FOOOTER==========================================*/
 
+#footer, #footer div{
+  display: flexbox;
+}
+
 #footer {
-    background-color: #316099;
-    width: 70%;
-    display: flex;
+  background-color: #316099;
+  width: 70%;
+  display: flex;
 }
 
-#footer ul, li{
-    color:white;
-    list-style: none;
-    padding: 2% 0 2% 0;
-    font-size: 16px;
+#footer ul,
+li {
+  color: white;
+  list-style: none;
+  padding: 2% 0 2% 0;
+  font-size: 16px;
 }
 
-#footer h4{
-    font-size: 20px;
-}   
-
-#Company, #AboutUS, #FollowUS{
-    width: 40%;
-    margin: auto;
-    
+#footer h4 {
+  font-size: 20px;
 }
 
-#AboutUS, #FollowUS{
-    padding: 0 0 0 8% ;
+#Company,
+#AboutUS,
+#FollowUS {
+  width: 40%;
+  margin: auto;
+}
+
+#AboutUS,
+#FollowUS {
+  padding: 0 0 0 8%;
 }
